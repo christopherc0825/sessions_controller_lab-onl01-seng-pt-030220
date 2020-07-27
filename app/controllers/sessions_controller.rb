@@ -8,6 +8,6 @@ class SessionsController < ApplicationController
   end
   
   def destroy
-    
+    session.delete :username
   end
 end
